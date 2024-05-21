@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Events Lab</title>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="display-window">
+      <div class="calculator">
+        <div class="row">
+        <input
+        type="text" disabled id="output" class="display" value="0"
+        />
+        </div>
+        <div class="row">
+          <div id="num7" data-type="operand" class="number-button button" value="7">7</div>
+          <div id="num8" data-type="operand" class="number-button button" value="8">8</div>
+          <div id="num9" data-type="operand" class="number-button button" value="9">9</div>
+          <div id="divide-btn" data-type="operator" class="operator-button button">/</div>
+        </div>
+        <div class="row">
+          <div id="num4" data-type="operand" class="number-button button" value="4">4</div>
+          <div id="num5" data-type="operand" class="number-button button" value="5">5</div>
+          <div id="num6" data-type="operand" class="number-button button" value="6">6</div>
+          <div id="multiply-btn" data-type="operator" class="operator-button button">*</div>
+        </div>
+        <div class="row">
+          <div id="num1" data-type="operand" class="number-button button" value="1">1</div>
+          <div id="num2" data-type="operand" class="number-button button" value="2">2</div>
+          <div id="num3" data-type="operand" class="number-button button" value="3">3</div>
+          <div id="subtract-btn" data-type="operator" class="operator-button button">-</div>
+        </div>
+        <div class="row">
+          <div id="clear-btn" data-type="clear" class="clear-button button">C</div>
+          <div id="num0" class="number-button button" value="0">0</div>
+          <div id="add-btn" data-type="operator" class="operator-button button">+</div>
+          <div id="equals-btn" data-type="operator" class="result-button button">=</div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
